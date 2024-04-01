@@ -1,0 +1,37 @@
+React - https://www.youtube.com/watch?v=JvENsHqWXfw
+React docs - https://legacy.reactjs.org/docs/create-a-new-react-app.html
+
+Installation 
+	create a new folder(React)
+	install vscode
+	install node - https://nodejs.org/en/download
+	go to folder and open command utility centre from there 
+	Now install react by using command - npx create-react-app myfirstapp
+	After installing react, go to project folder by using command - cd myfirstapp
+	now run server by using command - npm start
+
+Components- we can create a group of elements in this component and apply css style to them , we can custiomize our components according to our device requirements
+	Rules of component
+		We can create n number of components 
+		with the help of ffc keyword we can get snippet code to create component
+		Component name always starts with Capital letter
+		and content which we are returning should be in between div container 
+		Anything out of div container written will throw error
+		And for a module we can have only one export statement , that means only one function can be exported 
+		Multiple components can be created with callback function return them in export function 
+		Every component needs to be rendered in App.js file orelse it will not get executed , even page will be automatically loaded
+
+What is Jsx
+	jsx - Javascript xml 
+	Before react we used to have separate files for html and js , where corresponding code were written in that file only. While react adds an advantage that we can write html elements in js also 
+props 
+	props-properties
+	props are nothing but , communication between the prompts and sending data from one component to other component
+	in this data will be sent from parent(sender) to child(reciver) , which happens in one way 
+	and child component can just read that data
+	Destructuring of props
+		if props recives data like having key value pairs , then we have a syntax to Destruct it
+				const {key1, key2, ...} = props.variable_name
+				Here variable_name will be the name of which will be sending data from parent component
+
+	
