@@ -1,0 +1,13 @@
+.inputdata{
+  background-color: black;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  width: 15rem;
+  height: 2rem;
+}

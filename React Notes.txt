@@ -34,4 +34,36 @@ props
 				const {key1, key2, ...} = props.variable_name
 				Here variable_name will be the name of which will be sending data from parent component
 
+State 
+	In react, states is a internal storage mechanism which is used by react components to store and update thier own data 
+	State allows React components to manage and update their data dynamically, which enables them to respond to user interactions, changes in data, or other events
+	useState
+	with the help of useState hook we can update data
+	useEffect 
+	if there are multiple useState then it will go to infinite loop
+	to overcome that , we use useEffect so that it will take care of that loops
+
+Terinary Operator
+	syntax : sample_condition? True : False 
+	if sample_condition is true , True will execute orlse False will execute
+
+NPM Manager 
+	we can get packages from npm site by browsing our requirements and load it simply by following instructions mentioned in that browser
+
+EeventListeners and Forms
+	If any change is accourced we will call EeventListeners whereas we need peform after complete action is done then we will go with from
+
+Arrays and objects
+	we will store all data coming from api and access them according to requirement 
+
+Template Literals
+	we can return a variable along with statement
+	for the statement we need to write it under backtics(``)
+	let course = with shannu 
+	syntax : {`Welcome to react ${course}`}
+
+
+
+
+
 	
